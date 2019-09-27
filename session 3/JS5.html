@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+  <script>
+  var day;
+  switch (new Date().getDay()) {
+      case 0:
+          day = "Sunday, you're not in collage today";
+          break;
+      case 1:
+          day = "Monday, in collage today 1pm till 4:15pm";
+          break;
+      case 2:
+          day = "Tuesday, in collage today 9:00am till 4:15pm";
+          break;
+      case 3:
+          day = "Wednesday, you're not in collage today";
+          break;
+      case 4:
+          day = "Thursday, you're not in collage today";
+          break;
+      case 5:
+          day = "Friday, in collage today 1pm till 4:15pm";
+          break;
+      case 6:
+          day = "Saturday, you're not in collage today ";
+          break;
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Loop - 2</title>
+</head>
+
+<body>
+
+      <p id="displayFruit"></p>
+
+      <script>
+      var fruit =["apple","pear","orange","plum","banana"]
+
+      var i = 0;
+      var len = fruit.length;
+      var output = "";
+
+      for (; i < len; ) {
+          output += fruit[i] + "<br>";
+          i++;
+      }
+      document.getElementById("displayFruit").innerHTML = output;
+      </script>
+
+</body>
+</html>
